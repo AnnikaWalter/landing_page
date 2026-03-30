@@ -1,0 +1,10 @@
+.footer {
+    border: 2px solid orange;
+    background-color: #1F2937;
+    color: white;
+    font-size: small;
+    /* height: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
