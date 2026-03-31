@@ -12,6 +12,17 @@ font-family: roboto, arial, helvetica;
     color: #f9faf8;
 }
 
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .footer {
     border: 2px solid orange;
     background-color: #1F2937;
