@@ -12,6 +12,10 @@ font-family: roboto, arial, helvetica;
     color: #f9faf8;
 }
 
+.firstline {
+    border: 2px solid red;
+}
+
 .hero-main-text {
     font-size: 48px;
     color: #f9faf8;
