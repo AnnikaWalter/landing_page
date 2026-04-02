@@ -24,6 +24,11 @@ font-family: roboto, arial, helvetica;
     gap: 15px;
 }
 
+.thefirstsection {
+    border: 2px solid green;
+    display: flex;
+}
+
 .hero-left {
     border: 2px solid yellow;
 }
