@@ -1,5 +1,5 @@
-.body {
-font-family: roboto, arial, helvetica;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -13,20 +13,22 @@ font-family: roboto, arial, helvetica;
 }
 
 .firstline {
-    border: 2px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .header-links {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 22px;
 }
 
 .thefirstsection {
     border: 2px solid green;
     display: flex;
+    justify-content: space-around;
 }
 
 .hero-left {
