@@ -4,44 +4,51 @@ body {
 
 .header {
   background-color: #1f2937;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 800;
   color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .firstline {
   display: flex;
   justify-content: space-between;
-  padding-left: 130px;
-  padding-right: 130px;
-  border: 1px solid red;
-  background: red;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  /* border: 1px solid red; */
+  width: 1012px;
 }
 
 .header-links {
   display: flex;
   align-items: center;
   gap: 22px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .firstsection {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   justify-content: center;
-  /* padding-left: 130px; */
-  /* padding-right: 130px; */
 }
 
 .hero-left {
   /* border: 2px solid yellow; */
-  /* display: flex;
-    flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 506px;
   height: 320px;
 }
@@ -54,6 +61,7 @@ body {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin-bottom: 25px;
   /* border: 2px solid red; */
 }
 
@@ -65,11 +73,12 @@ body {
 
 .sign-up {
   cursor: pointer;
-  padding: 8px 16px;
+  padding: 8px 32px;
   border-radius: 8px;
   background: royalblue;
-  /* border: 1px solid royalblue; */
+  border: 1px solid royalblue;
   color: white;
+  align-self: flex-start;
 }
 
 .cardsection {
