@@ -57,6 +57,22 @@ font-family: roboto, arial, helvetica;
     color: white;
 }
 
+.cardsection {
+    border: 2px solid purple;
+}
+
+.headlinecardsection {
+    border: 2px solid grey;
+}
+
+.cardcontainer {
+    border: 2px solid pink;
+}
+
+.card {
+    border: 2px solid lightgreen;
+}
+
 .footer {
     border: 2px solid orange;
     background-color: #1F2937;
