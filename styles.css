@@ -28,7 +28,9 @@ body {
 .thefirstsection {
     border: 2px solid green;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .hero-left {
@@ -43,11 +45,13 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    border: 2px solid red;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+    border: 2px solid white;
 }
 
 .sign-up {
