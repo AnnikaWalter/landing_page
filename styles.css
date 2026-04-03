@@ -129,19 +129,33 @@ body {
 
 .quotesection {
   background-color: #e5e7eb;
-}
-
-.quotetext {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.quotename {
+.quotetext {
+  /* border: 2px solid red; */
+  font-size: 36px;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 750px;
+  padding-top: 80px;
+}
+
+.quotename {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  align-items: flex-end;
+  font-size: 20px;
+  padding-bottom: 70px;
 }
 
 .footer {
