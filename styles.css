@@ -158,6 +158,46 @@ body {
   padding-bottom: 70px;
 }
 
+.cta {
+  border: 2px solid red;
+  background-color: #f9faf8;
+}
+
+.bluebox {
+  /* border: 2px solid green; */
+  background-color: #3882f6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 190px;
+  margin-left: 190px;
+  border-radius: 8px;
+}
+
+.calls {
+  border: 2px solid black;
+}
+
+.maincall {
+  border: 2px solid red;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+.secondcall {
+  border: 2px solid green;
+  color: #f9faf8;
+}
+
+.second-sign-up {
+  cursor: pointer;
+  padding: 8px 32px;
+  border-radius: 8px;
+  background: #3882f6;
+  border: 1px solid white;
+  color: white;
+}
+
 .footer {
   /* border: 2px solid orange; */
   background-color: #1f2937;
