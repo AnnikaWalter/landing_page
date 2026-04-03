@@ -85,6 +85,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 70px;
 }
 
 .headlinecardsection {
@@ -220,7 +221,7 @@ body {
   background-color: #1f2937;
   color: #f9faf8;
   font-size: small;
-  height: 50px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
